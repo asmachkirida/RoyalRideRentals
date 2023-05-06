@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="images">
+    <file>category.png</file>
+    <file>bin.png</file>
+    <file>myicon.png</file>
+    <file>admina.png</file>
+    <file>admin.png</file>
+    <file>br.png</file>
+    <file>vid.mp4</file>
+    <file>login1.jpg</file>
+    <file>im10.jpg</file>
+    <file>magnifier.png</file>
+    <file>seo.png</file>
+    <file>profile.png</file>
+  </qresource>
+</RCC>

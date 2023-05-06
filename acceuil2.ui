@@ -1,0 +1,1456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>860</width>
+    <height>612</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-40</x>
+     <y>-10</y>
+     <width>900</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(202, 213, 215);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>220</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(133, 26, 20,0.9);
+border-top-left-radius :50px;
+border-top-right-radius :50px;
+border-bottom-left-radius :50px;
+border-bottom-right-radius :50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>-15</y>
+     <width>8</width>
+     <height>821</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(133, 26, 20,0.9);
+border-top-left-radius :50px;
+border-top-right-radius :50px;
+border-bottom-left-radius :50px;
+border-bottom-right-radius :50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>100</y>
+     <width>221</width>
+     <height>7</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(202, 213, 215,0.7);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>10</y>
+     <width>81</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image:url(images/myicon.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>20</y>
+     <width>481</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Upbolters New</family>
+     <pointsize>35</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>RoyalRideRentals</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_rm">
+   <property name="geometry">
+    <rect>
+     <x>29</x>
+     <y>210</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_rm{
+background-color:rgba(202, 213, 215,0.7);
+border-bottom-left-radius:30px;
+border-top-left-radius:30px;
+
+}
+QPushButton#pushButton_rm:hover{
+	background-color: 	rgba(202, 213, 215,1);
+}
+
+QPushButton#pushButton_rm:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>  Remove a Car</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Downloads/bin.png</normaloff>../../Downloads/bin.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_add">
+   <property name="geometry">
+    <rect>
+     <x>29</x>
+     <y>130</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_add{
+background-color:rgba(202, 213, 215,0.7);
+border-bottom-left-radius:30px;
+border-top-left-radius:30px;
+
+}
+QPushButton#pushButton_add:hover{
+	background-color: 	rgba(202, 213, 215,1);
+}
+
+QPushButton#pushButton_add:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>   Add a Car</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Downloads/sports-car.png</normaloff>../../Downloads/sports-car.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_up">
+   <property name="geometry">
+    <rect>
+     <x>29</x>
+     <y>290</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_up{
+background-color:rgba(202, 213, 215,0.7);
+border-bottom-left-radius:30px;
+border-top-left-radius:30px;
+
+}
+QPushButton#pushButton_up:hover{
+	background-color: 	rgba(202, 213, 215,1);
+}
+
+QPushButton#pushButton_up:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>  Update </string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Downloads/refresh.png</normaloff>../../Downloads/refresh.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_di">
+   <property name="geometry">
+    <rect>
+     <x>29</x>
+     <y>370</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_di{
+background-color:rgba(202, 213, 215,0.7);
+border-bottom-left-radius:30px;
+border-top-left-radius:30px;
+
+}
+QPushButton#pushButton_di:hover{
+	background-color: 	rgba(202, 213, 215,1);
+}
+
+QPushButton#pushButton_di:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+
+
+</string>
+   </property>
+   <property name="text">
+    <string> Display Cars List</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Downloads/category.png</normaloff>../../Downloads/category.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>110</y>
+     <width>611</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>4</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>60</y>
+       <width>291</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border: none;
+border-bottom:2px solid #A92016;
+color:rgba(0,0,0,240);
+padding:7px;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Brand</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>180</y>
+       <width>291</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border: none;
+border-bottom:2px solid #A92016;
+color:rgba(0,0,0,240);
+padding:7px;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Fuel type</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_3">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>140</y>
+       <width>291</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border: none;
+border-bottom:2px solid #A92016;
+color:rgba(0,0,0,240);
+padding:7px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>Year of manifacture</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_4">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>100</y>
+       <width>291</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border: none;
+border-bottom:2px solid #A92016;
+color:rgba(0,0,0,240);
+padding:7px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>Model</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_5">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>220</y>
+       <width>291</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border: none;
+border-bottom:2px solid #A92016;
+color:rgba(0,0,0,240);
+padding:7px;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Price</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_addc">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>320</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_addc{
+background-color:#A92016;
+border-radius:15px;
+ border: 1px solid black;
+
+}
+QPushButton#pushButton_addc:hover{
+	background-color: #B1BABF;
+}
+
+QPushButton#pushButton_addc:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>   Confirm </string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>280</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color :	#808080;</string>
+     </property>
+     <property name="text">
+      <string>Transmission</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>261</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QRadioButton" name="radioButton">
+        <property name="styleSheet">
+         <string notr="true">QRadioButton {
+    color: #333; /* text color */
+    font-size: 14px; /* font size */
+}
+
+QRadioButton::indicator {
+    background-color: #fff; /* background color of the indicator */
+    border-radius: 50%; /* make the indicator round */
+    border: 2px solid #A92016; /* border color for unchecked radio button */
+}
+
+QRadioButton::indicator:unchecked {
+    border-color: #A92016; /* border color for unchecked radio button */
+}
+
+QRadioButton::indicator:checked {
+    background-color: #A92016; /* background color for checked radio button */
+    border-color: #A92016; /* border color for checked radio button */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Automatic</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radioButton_2">
+        <property name="styleSheet">
+         <string notr="true">QRadioButton {
+    color: #333; /* text color */
+    font-size: 14px; /* font size */
+}
+
+QRadioButton::indicator {
+    background-color: #fff; /* background color of the indicator */
+    border-radius: 50%; /* make the indicator round */
+    border: 2px solid #A92016; /* border color for unchecked radio button */
+}
+
+QRadioButton::indicator:unchecked {
+    border-color: #A92016; /* border color for unchecked radio button */
+}
+
+QRadioButton::indicator:checked {
+    background-color: #A92016; /* background color for checked radio button */
+    border-color: #A92016; /* border color for checked radio button */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Manual</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="label002">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>300</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>7</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #AE1E1D;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QLineEdit" name="lineEdit_6">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>140</y>
+       <width>291</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border: none;
+border-bottom:2px solid #A92016;
+color:rgba(0,0,0,240);
+padding:7px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>Car's ID</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_r">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>220</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_r{
+background-color:#A92016;
+border-radius:15px;
+ border: 1px solid black;
+
+}
+QPushButton#pushButton_r:hover{
+	background-color: #B1BABF;
+}
+
+QPushButton#pushButton_rc:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>   Confirm </string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label003">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>190</y>
+       <width>191</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>7</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #AE1E1D;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_3">
+    <widget class="QLineEdit" name="lineEdit_7">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>70</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border: none;
+border-bottom:2px solid #A92016;
+color:rgba(0,0,0,240);
+padding:7px;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Car's ID</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_8">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>110</y>
+       <width>291</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border: none;
+border-bottom:2px solid #A92016;
+color:rgba(0,0,0,240);
+padding:7px;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Brand</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_9">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>190</y>
+       <width>291</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border: none;
+border-bottom:2px solid #A92016;
+color:rgba(0,0,0,240);
+padding:7px;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Year of manifacture</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_10">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>150</y>
+       <width>291</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border: none;
+border-bottom:2px solid #A92016;
+color:rgba(0,0,0,240);
+padding:7px;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Model</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_11">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>230</y>
+       <width>291</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border: none;
+border-bottom:2px solid #A92016;
+color:rgba(0,0,0,240);
+padding:7px;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Fuel type</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_12">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>270</y>
+       <width>291</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border: none;
+border-bottom:2px solid #A92016;
+color:rgba(0,0,0,240);
+padding:7px;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Price</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_u">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>370</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_u{
+background-color:#A92016;
+border-radius:15px;
+ border: 1px solid black;
+
+}
+QPushButton#pushButton_u:hover{
+	background-color: #B1BABF;
+}
+
+QPushButton#pushButton_u:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>   Confirm </string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_p">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>80</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_p{
+background-color:#A92016;
+
+ border: 1px solid black;
+
+}
+
+QPushButton#pushButton_p:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+
+
+</string>
+     </property>
+     <property name="text">
+      <string> Search </string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>310</y>
+       <width>191</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QRadioButton" name="radioButton_3">
+        <property name="styleSheet">
+         <string notr="true">QRadioButton {
+    color: #333; /* text color */
+    font-size: 14px; /* font size */
+}
+
+QRadioButton::indicator {
+    background-color: #fff; /* background color of the indicator */
+    border-radius: 50%; /* make the indicator round */
+    border: 2px solid #A92016; /* border color for unchecked radio button */
+}
+
+QRadioButton::indicator:unchecked {
+    border-color: #A92016; /* border color for unchecked radio button */
+}
+
+QRadioButton::indicator:checked {
+    background-color: #A92016; /* background color for checked radio button */
+    border-color: #A92016; /* border color for checked radio button */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Automatic</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radioButton_4">
+        <property name="styleSheet">
+         <string notr="true">QRadioButton {
+    color: #333; /* text color */
+    font-size: 14px; /* font size */
+}
+
+QRadioButton::indicator {
+    background-color: #fff; /* background color of the indicator */
+    border-radius: 50%; /* make the indicator round */
+    border: 2px solid #A92016; /* border color for unchecked radio button */
+}
+
+QRadioButton::indicator:unchecked {
+    border-color: #A92016; /* border color for unchecked radio button */
+}
+
+QRadioButton::indicator:checked {
+    background-color: #A92016; /* background color for checked radio button */
+    border-color: #A92016; /* border color for checked radio button */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Manual</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>330</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color :	#808080;</string>
+     </property>
+     <property name="text">
+      <string>Transmission</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_4">
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>591</width>
+       <height>391</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTableView {
+    color: black;
+    gridline-color: black;
+    border-color: rgb(242, 128, 133);
+ selection-background-color: rgba(242, 128, 133,0.6);
+    font: 10px;
+    text-align: center;
+ border: 2px solid;
+
+    font-weight: bold;
+}
+QHeaderView::section {
+    background-color: rgba(71, 153, 176,0.8);
+    color: white;
+    height: 35px;
+ border: 2px solid;
+    font: 14px;
+}
+QTableWidget::item {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+QTableView::item:focus{
+    border: 2px solid rgb(242, 128, 133);
+    background-color: rgba(255, 254, 229,0.4);
+}
+QScrollBar:vertical {
+    background: rgb(188, 224, 235);
+}
+ QScrollBar::handle:vertical {
+    background: rgba(71, 153, 176,0.5);
+ }
+QScrollBar:horizontal {
+    background: rgba(188, 224, 235,0.5);
+}
+ QScrollBar::handle:horizontal {
+    background: rgba(71, 153, 176,0.5);
+ }
+
+
+
+
+
+</string>
+     </property>
+     <column>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Brand</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Model</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Year</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Fuel</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Price</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Availability</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Transmission</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Image</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_5">
+    <widget class="QTableWidget" name="tableWidget_tr">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>611</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTableView {
+    color: black;
+    gridline-color: black;
+    border-color: rgb(242, 128, 133);
+ selection-background-color: rgba(242, 128, 133,0.6);
+    font: 10px;
+    text-align: center;
+ border: 2px solid;
+
+    font-weight: bold;
+}
+QHeaderView::section {
+    background-color: rgba(71, 153, 176,0.8);
+    color: white;
+    height: 35px;
+ border: 2px solid;
+    font: 14px;
+}
+QTableWidget::item {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+QTableView::item:focus{
+    border: 2px solid rgb(242, 128, 133);
+    background-color: rgba(255, 254, 229,0.4);
+}
+QScrollBar:vertical {
+    background: rgb(188, 224, 235);
+}
+ QScrollBar::handle:vertical {
+    background: rgba(71, 153, 176,0.5);
+ }
+QScrollBar:horizontal {
+    background: rgba(188, 224, 235,0.5);
+}
+ QScrollBar::handle:horizontal {
+    background: rgba(71, 153, 176,0.5);
+ }
+
+
+
+
+
+</string>
+     </property>
+     <column>
+      <property name="text">
+       <string>Receipt</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Brand</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Model</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Days</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Date</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Price</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_tr">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>310</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border: none;
+border-bottom:2px solid #A92016;
+color:rgba(0,0,0,240);
+padding:7px;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Receipt's number</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>350</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QRadioButton" name="radioButton_tr1">
+        <property name="styleSheet">
+         <string notr="true">QRadioButton {
+    color: #333; /* text color */
+    font-size: 14px; /* font size */
+}
+
+QRadioButton::indicator {
+    background-color: #fff; /* background color of the indicator */
+    border-radius: 50%; /* make the indicator round */
+    border: 2px solid #A92016; /* border color for unchecked radio button */
+}
+
+QRadioButton::indicator:unchecked {
+    border-color: #A92016; /* border color for unchecked radio button */
+}
+
+QRadioButton::indicator:checked {
+    background-color: #A92016; /* background color for checked radio button */
+    border-color: #A92016; /* border color for checked radio button */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Aprove</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radioButton_tr2">
+        <property name="styleSheet">
+         <string notr="true">QRadioButton {
+    color: #333; /* text color */
+    font-size: 14px; /* font size */
+}
+
+QRadioButton::indicator {
+    background-color: #fff; /* background color of the indicator */
+    border-radius: 50%; /* make the indicator round */
+    border: 2px solid #A92016; /* border color for unchecked radio button */
+}
+
+QRadioButton::indicator:unchecked {
+    border-color: #A92016; /* border color for unchecked radio button */
+}
+
+QRadioButton::indicator:checked {
+    background-color: #A92016; /* background color for checked radio button */
+    border-color: #A92016; /* border color for checked radio button */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Reject</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="pushButton_tra">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>410</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_tra{
+background-color:#A92016;
+
+ border: 1px solid black;
+
+}
+
+QPushButton#pushButton_tra:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+
+
+</string>
+     </property>
+     <property name="text">
+      <string> Confirm </string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_err">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>380</y>
+       <width>191</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>7</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #AE1E1D;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_tr">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>450</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_tr{
+background-color:rgba(202, 213, 215,0.7);
+border-bottom-left-radius:30px;
+border-top-left-radius:30px;
+
+}
+QPushButton#pushButton_tr:hover{
+	background-color: 	rgba(202, 213, 215,1);
+}
+
+QPushButton#pushButton_tr:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>  Rentals</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Downloads/icons8-purchase-order-64.png</normaloff>../../Downloads/icons8-purchase-order-64.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>35</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="images/images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
