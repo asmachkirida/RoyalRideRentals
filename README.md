@@ -41,3 +41,4 @@ L'interface Acceuil.ui est réservée à l'administrateur de la plateforme de lo
 Une fois connecté, l'administrateur peut visualiser toutes les voitures disponibles à la location, ainsi que toutes les réservations en cours. L'administrateur peut ajouter, modifier ou supprimer des voitures de la base de données en utilisant des boutons dédiés. Les informations concernant chaque voiture, telles que le modèle, l'année de fabrication, le prix et le type de carburant, peuvent être mises à jour par l'administrateur.
 
 L'administrateur peut également visualiser toutes les réservations actuelles. Pour chaque réservation, l'administrateur peut voir les informations relatives à la voiture louée, la date de début de la location, ainsi que les coordonnées du client qui a effectué la réservation. L'administrateur peut approuver ou rejeter chaque réservation en utilisant des boutons dédiés.
+
